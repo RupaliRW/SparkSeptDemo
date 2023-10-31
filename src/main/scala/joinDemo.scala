@@ -11,6 +11,8 @@ object joinDemo extends App{
   sparkConf.set("spark.app.name", "DFSeptDemo")
   sparkConf.set("spark.master", "local[1]")
 
+  //note
+
   val spark = SparkSession.builder().config(sparkConf).getOrCreate()
 
   import spark.implicits._
