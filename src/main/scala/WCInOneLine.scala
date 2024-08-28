@@ -10,6 +10,9 @@ object WCInOneLine {
  fileRDD.collect().foreach(println)
 
 
+
+
+
   }
 
 }

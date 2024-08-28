@@ -18,6 +18,7 @@ object Main {
     //print final output to screen.
     finalOutput.collect().foreach(println)
 
+    println("Done")
 
 
   }
